@@ -1,7 +1,7 @@
 # Boosting Generalization of Small Language Models for Medical Q/A Task
 
 ## Note
-The repository contains code for fine-tuning the flan-t5-small model on two datasets: iCliniq Dataset and MedQuAD Dataset. For details on model merging techniques, please refer to: [LLM-Merging Repository](https://github.com/DevChuriwala/LLM-Merging/tree/dev/llm-291).
+The repository contains code for fine-tuning the flan-t5-small model on two datasets: iCliniq Dataset and MedQuAD Dataset. For implementation details and our code for model merging techniques, please refer to the: [LLM-Merging Repository](https://github.com/DevChuriwala/LLM-Merging/tree/dev/llm-291).
 
 ## Abstract
 This project enhances the performance of small language models (SLMs) for healthcare applications by employing advanced model merging strategies (Model Soup, SLERP, TIES, DARE, Task Arithmetic, and Weighted Average). It effectively addresses data privacy and resource constraints, facilitating the deployment of efficient medical Q&A systems on edge devices. The approach is validated through experiments conducted on the iCliniq and MedQuAD datasets.
